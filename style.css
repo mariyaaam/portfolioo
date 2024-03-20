@@ -1,0 +1,292 @@
+body{
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgba(99, 10, 39, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+   max-width: 1400px;
+}
+.logo{
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+nav ul a{
+    text-decoration: none;
+    color: rgb(182, 101, 164);
+}
+
+
+    
+
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+    color: rgb(182, 101, 164);
+    font-size: 60px;
+    position:relative;
+}
+.fourth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    color: rgb(182, 101, 164);
+    font-size: 20px;
+    position:relative;
+
+}
+.fifth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(182, 101, 164);
+    font-size: 60px;
+    position: relative;
+    top: 400px;
+}
+.b{
+    
+   position: relative;
+   left: 40rem;
+   border-radius: 50%;
+   height: 200px;
+   width: 200px;
+   left: 10px;
+   top: 400px;
+}
+
+.sixth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+    color: rgb(182, 101, 164);
+    font-size: 20px;
+    position:relative;
+    top: 400px;
+}
+h5{
+    width: 30%;
+    margin: auto;
+    
+    
+}
+
+.q{
+    display: flex;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns:400px 400px ;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+.w{
+    display: inline-block;
+    height: 500px;
+    width: 50%;
+    background-color: white;
+    margin-top: 850px;
+}
+.x{
+    display: inline-block;
+    height: 500px;
+    width: 50%;
+    background-color: white;
+    margin-top: 850px;
+    
+}
+.p{
+    
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+  
+}
+.seven{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(182, 101, 164);
+    font-size: 60px;
+    position: relative;
+    top: 840px;
+}
+
+
+.o{
+    color: rgb(182, 101, 164);
+}
+.y{
+    align-items: center;
+    height: 200px;
+    width: 50%;
+    background-color: white;
+    margin-top: 200px;
+    margin-left: 25%;
+    font-size: 20px;
+}
+.z{
+    height: 200px;
+    width: 100%;
+    background-color: rgba(99, 10, 39, 0.2);
+    margin-top: 300px;
+    
+} 
+
+.e{
+    color: rgb(182, 101, 164);
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    display: inline;
+    margin:  50px;
+    font-size: 15px;
+}
+
+.r ul .e a{
+    color: rgb(182, 101, 164);
+    text-decoration: none;
+}
+.eight{
+    margin-top: 5rem;
+    display: flex;
+    background-color: rgba(99, 10, 39, 0.2);
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color:  rgb(182, 101, 164);
+    margin-bottom: 30px;
+
+}
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 7px 0;
+}
+.m{
+    position: absolute;
+    left: 30px;
+    top: 380px;
+}
+.n{
+    position: absolute;
+    right: 30px;
+    top: 100px;
+    height: 200px;
+    width: 200px;
+}
+.j{
+    position: absolute;
+    right: 30px;
+    top: 600px;
+    
+}
+.k{
+    position: absolute;
+    left: 30px;
+    top: 1300px;
+    height: 300px;
+    width: 300px;
+}
+.u{
+    position: absolute;
+    right: 30px;
+    top: 1400px;
+}
+.l{
+    position: absolute;
+    left: 30px;
+    top: 2200px;
+    height: 300px;
+    width: 300px;
+}
+.f{
+    position: absolute;
+    right: 10px;
+    top: 2450px;
+    
+}
+.qw{
+    color: #eea6e8;
+    text-decoration: none;
+
+}
+@media (max-width: 768px) {
+    .logo{
+       font-size: 18px;
+    }
+    nav ul li{
+       display: none;
+    }
+    nav ul a{
+       display: block;
+       margin: 10px 0;
+    }
+    .third{
+       font-size: 30px;
+    }
+    .m{
+     transform: scale(0.6); 
+     top: 250px;
+     left: 10px;
+}
+.n{
+    transform: scale(0.7) ;
+    
+}
+.fourth{
+ font-size: 15px;
+}.j{
+    transform: scale(0.6);
+    left: 250px;
+    top: 450px;
+    
+}
+.k{
+    transform: scale(0.6);
+    left: 10px;
+    top: 1350px;
+}
+.u{
+    transform: scale(0.6);
+    left: 250px;
+    top: 1500px;
+}
+.l{
+    transform: scale(0.6);
+    left: 10px;
+    top: 2400px;
+    height: 300px;
+    width: 300px;
+}
+.f{
+    transform: scale(0.5);
+    left: 250px;
+    
+    top: 2850px;
+    
+}
+
+
+
+}
